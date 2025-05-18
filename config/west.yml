@@ -52,7 +52,7 @@ manifest:
       revision: 
     - name: zmk-leader-key
       remote: urob
-      revision:  # set to same as ZMK version above
+      revision: v0.2.1 # set to same as ZMK version above
     - name: zmk-dongle-display
       remote: te9no
       revision: 
