@@ -2,10 +2,20 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
+    - name: caksoylar
+      url-base: https://github.com/caksoylar
+    - name: badjeff
+      url-base: https://github.com/badjeff
+    - name: urob
+      url-base: https://github.com/urob
+    - name: englmaxi
+      url-base: https://github.com/englmaxi
+    - name: te9no
+      url-base: https://github.com/te9no
   projects:
     - name: zmk
       remote: zmkfirmware
-      revision: 461f5c832fb8854d87dca54d113d306323697219  # main
+      revision: 461f5c832fb8854d87dca54d113d306323697219  # 
       import: app/west.yml
     - name: zephyr
       remote: zmkfirmware
@@ -30,5 +40,23 @@ manifest:
           - openthread
           - edtt
           - trusted-firmware-m
+    - name: zmk-rgbled-widget
+      remote: caksoylar
+      revision: 
+    - name: zmk-pmw3610-driver
+      remote: badjeff
+      revision: 
+    - name: zmk-analog-input-driver
+      remote: badjeff
+      #remote: te9no
+      revision: 
+    - name: zmk-leader-key
+      remote: urob
+      revision:  # set to same as ZMK version above
+    - name: zmk-dongle-display
+      remote: te9no
+      revision: 
+      # remote: englmaxi
+      # revision: 
   self:
     path: config
