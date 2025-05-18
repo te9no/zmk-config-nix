@@ -18,7 +18,7 @@
         name = "firmware";
         
         src = nixpkgs.lib.sourceFilesBySuffices self [ ".board" ".cmake" ".conf" ".defconfig" ".dts" ".dtsi" ".json" ".keymap" ".overlay" ".shield" ".yml" "_defconfig" ];
-
+        
         board = "seeeduino_xiao_ble";
         shield = "Solstice_%PART% rgbled_adapter";
         parts = [ "L dongle_display" "R" ];

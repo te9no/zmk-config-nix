@@ -40,6 +40,9 @@ manifest:
           - openthread
           - edtt
           - trusted-firmware-m
+    - name: zmk-config-GeaconSolstice
+      remote: te9no
+      revision: main
     - name: zmk-rgbled-widget
       remote: caksoylar
       revision: main
